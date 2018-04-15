@@ -1,4 +1,5 @@
-jquery plugin
+JQurey Plugin
+============
 JBC_ani Plugin 입니다.
 ============
 
