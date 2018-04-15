@@ -15,3 +15,35 @@ JBC_ani Plugin 입니다.
 > - 반복여부 가능
 > - 이미지 사라지는 속도 조정 가능
 > - 시작위치 도착위치 조정 가능
+
+### Usage
+**1.jqurey 호출**
+
+플러그인을 사용하기전에 JQuery Library를 부르고 jbc_ani.min.js를 호출 합니다.
+```html
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="jbc_ani.min.js"></script> 
+```
+**2.기본구조**
+
+기본구조는 다음과 같으며 클래스명은 자유입니다.
+```html
+<div> 
+    <div class="custom">
+        <nav><img src="....."></nav>
+        <nav><img src="....."></nav>
+        <nav><img src="....."></nav>
+    </div>    
+<div> 
+```
+
+**3.플러그인 적용**
+
+.jbc_ani() 사용하여 해당 div에 플러그인을 적용 시킵니다.
+```html
+<script type="text/javascript">
+    $(function(){
+        $('.custom').jbc_ani();
+    })
+</script> 
+```
