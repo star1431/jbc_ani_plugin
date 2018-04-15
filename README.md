@@ -18,7 +18,7 @@ JBC_ani Plugin 입니다.
 > - 이미지 사라지는 속도 조정 가능
 > - 시작위치 도착위치 조정 가능
 
-### Usage
+### How to use
 **1.jqurey 호출**
 
 플러그인을 사용하기전에 JQuery Library를 부르고 jbc_ani.min.js를 호출 합니다.
@@ -47,5 +47,31 @@ JBC_ani Plugin 입니다.
     $(function(){
         $('.custom').jbc_ani();
     })
+</script> 
+```
+
+### Plugin Option
+**1.jqurey 호출**
+
+플러그인을 사용하기전에 JQuery Library를 부르고 jbc_ani.min.js를 호출 합니다.
+```html
+<script type="text/javascript">
+ 
+    $(function(){
+        $('.custom').jbc_ani({
+             
+            //기본값 입니다.
+            location:'left',//방향의 기준점 입니다. 'left' , 'right', 'top' , 'bottom' 
+            start:-50,//position의 시작 위치값 입니다.
+            move:0,//position의 도착 위치값 입니다.
+            all_speed:2500,//setInterval 장면이 바뀌는 시간입니다.
+            animate:500,//animate의 나타나는 속도값입니다.
+            fadeOut:700,//fadeOut의 사라지는 시간입니다.
+            fadeIn:500,//fadeIn의 나타나는 시간입니다
+            auto:'true',//반복여부를 체크 합니다. 'true' or 'false' 
+ 
+        });
+    })
+ 
 </script> 
 ```
