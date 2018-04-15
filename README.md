@@ -1,6 +1,5 @@
-JQurey Plugin
-============
-JBC_ani Plugin 입니다.
+
+JBC_ani Plugin 
 ============
 #### 미리보기
 
@@ -17,6 +16,9 @@ JBC_ani Plugin 입니다.
 > - 반복여부 가능
 > - 이미지 사라지는 속도 조정 가능
 > - 시작위치 도착위치 조정 가능
+
+
+
 
 ## How to use
 **1.jqurey 호출**
@@ -49,6 +51,10 @@ JBC_ani Plugin 입니다.
     })
 </script> 
 ```
+
+
+
+
 
 ## Plugin Option
 ```html
