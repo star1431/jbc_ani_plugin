@@ -1,0 +1,64 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+/*reset or layout*/
+*{margin:0;padding:0;box-sizing:border-box;}
+.background{position:fixed;z-index:-1;width:100%;height:100%;background:url(img/abcd.jpg) no-repeat center center;background-size:cover;}
+body{font-size:16px;font-family: 'Nanum Gothic', serif;}
+header,section,footer{width:100%;}
+/*공통*/
+.w1200{width:1200px;margin:0 auto;}
+.w1000{width:1000px;margin:0 auto;}
+.codes{width:600px;margin:0 auto;}
+.syntaxhighlighter {
+    font-size: 1.1em!important;
+    padding-bottom: 5px!important;
+    border:1px solid #262623;
+}
+.syntaxhighlighter .toolbar,.syntaxhighlighter .toolbar a{display:none !important;}
+.up{font-size:1.2em;color:#EAA603;font-weight:bold;}
+
+
+
+/*header*/
+header{position:relative;overflow:hidden;min-width:1200px;}
+header .w1200{height:300px;overflow:hidden;}
+.left_bar > nav > img,.right_bar > nav > img{bottom:0;width:50%;height:59px;opacity:1 !important}
+.main_logo > nav > img{left:50%;margin-left:-114px;}
+
+
+/*section*/
+section{width:1200px;overflow:hidden;background:#fff;margin:100px auto 125px auto;border-radius:25px;box-shadow:0 1px 6px rgba(32, 33, 36, 1);box-sizing:border-box;padding:20px}
+.cont{margin-bottom:120px}
+.cont h1{font-size:2.5em;padding-bottom:10px;border-bottom:4px double #87DCD1;color:#1E70CD;margin-bottom:30px ;}
+section p{font-size:1.2em;padding:5px 0;}
+section p.link{margin-top: 15px;padding-left: 10px;}
+section p.link a{display: inline-block;color:#1E70CD;text-decoration: none;border-bottom: 1px solid #1E70CD;}
+/*what is it*/
+.text_a ul{padding-left:25px;padding-top:20px;}
+.text_a ul li{padding:5px 0;}
+
+/*use*/
+
+/*option*/
+.opt_1{overflow:hidden;}
+.opt_1 > *{float:left;}
+.opt_1 .def{width:500px;}
+.opt_1 .def .syntaxhighlighter{margin:0 !important;}
+.opt_2 table{margin-top:20px; text-indent:15px}
+.opt_2 table,.opt_2 td,.opt_2 th{border-spacing:5px 5px;}
+.opt_2 table p{font-size:1em;}
+.opt_2 table th{text-align:left;background:#D9E1F9;height:60px;font-size:1.2em;}
+.opt_2 table td{background:#ECF0FC;padding:10px 0;}
+.opt_2 table td:nth-child(1),.opt_2 table td:nth-child(2){vertical-align:middle}
+.opt_2 table td:nth-child(1){width:150px;}
+.opt_2 table td:nth-child(2){width:150px;}
+.opt_2 table td:nth-child(3){width:700px}
+
+
+
+/*demo*/
+.demo_box{height:500px;background:url(img/back3.jpg);background-size:100%100%;margin-bottom:30px;opacity:0.8 }
+.demo_box2{width:500px;height:387px;background:beige;}
+.demo,.demo2,.demo3{width:100%;height:100%;}
+.demo nav img{bottom:5px;}
+.demo2 nav img,.demo3 nav img{bottom:50px;}
